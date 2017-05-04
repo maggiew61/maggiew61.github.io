@@ -2151,3 +2151,44 @@
 			}
 
 		}
+
+
+/*overlay try*/
+		.a {
+		  position: relative;
+		  width: 50%;
+		}
+
+		.image {
+		  display: block;
+		  width: 100%;
+		  height: auto;
+		}
+
+		.overlay {
+		  position: absolute;
+		  bottom: 0;
+		  left: 0;
+		  right: 0;
+		  background-color: white;
+		  overflow: hidden;
+		  width: 0;
+		  height: 100%;
+		  transition: .5s ease;
+		}
+
+		.a:hover .overlay {
+		  width: 100%;
+		}
+
+		.text {
+		  white-space: nowrap;
+		  color: black;
+		  font-size: 15px;
+		  position: absolute;
+		  overflow: hidden;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  -ms-transform: translate(-50%, -50%);
+		}
