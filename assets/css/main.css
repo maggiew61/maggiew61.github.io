@@ -2093,8 +2093,8 @@
 /* Intro */
 
 	#intro {
-		background: /*url("images/overlay.png"),*/ url("../../images/white.jpg");
-		background-size: 256px 256px, cover;
+		background: url("images/overlay.png"), url("../../images/east.jpg");
+		background-size: /*256px 256px,*/ cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
@@ -2174,7 +2174,7 @@
 		  overflow: hidden;
 		  width: 0;
 		  height: 100%;
-		  transition: .5s ease;
+		  transition: .8s ease;
 		}
 
 		.a:hover .overlay {
@@ -2182,9 +2182,9 @@
 		}
 
 		.text {
-		  white-space: nowrap;
+			white-space: nowrap;
 		  color: black;
-		  font-size: 15px;
+		  font-size: 18px;
 		  position: absolute;
 		  overflow: hidden;
 		  top: 50%;
