@@ -31,6 +31,8 @@
 				}, 0);
 			});
 
+			
+
 		// Touch mode.
 			skel.on('change', function() {
 
