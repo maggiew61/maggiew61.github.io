@@ -2112,8 +2112,8 @@
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/tree.jpg");
-		background-size: /*256px 256px,*/ cover;
+		background: /*url("images/overlay.png"),*/ url("../../images/white.jpg");
+		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
