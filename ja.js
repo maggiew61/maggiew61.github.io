@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 	var getData = function(url){
 		$.ajax({
-		  url: url;
+		  url: url,
 		  dataType: 'jsonp',
 		  data: {
 			  access_token:'2280825310.9969048.dc6b8d956bba4856aa2157440c5a62e3',
