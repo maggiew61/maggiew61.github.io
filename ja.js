@@ -13,10 +13,32 @@ $(document).ready(function(){
 		})
        .done(function(data) {
 		   photoData = data;
-		   console.dir(photoData);
-		})
+		//    console.dir(photoData);
+    $(photoData.data).each(function(){
+
+		var caption = '';
+		if(this.caption){
+			caption = this.caption.text;
+		}
+
+		$('#gallery').append(
+			$('<div class="img_block"></div')
+			.append(
+				$('<a></a>')
+				.attr('href',this.link)
+				.attr('target','_blank')
+				.append(
+					$('<img>').attr('src',this.images.low_resolution.url)
+				)
+			)
+			.append(
+				$('<p class="caption"></p>').text(caption+ 'love'+this.likes.count)
+			)
+		);
+	});
+});
 		.fail(function(){
-			$('#gallery').text(textStatus);
+			$('#gallery').text('資料讀取失敗');
 		})
 		}
 
