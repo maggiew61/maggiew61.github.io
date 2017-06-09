@@ -3,43 +3,13 @@
 	<head>
 		<meta charset="utf-8">
 		<title></title>
-		<style>
-		img{
-			max-width: 100%;
-		}
-		#gallery{
-			overflow: hidden;
-			box-sizing: border-box;
-			padding-left: 1px;
-		}
-		.img_block{
-			display:inline-block;
-			box-sizing: border-box;
-			padding: 2px;
-			width: 33.333333%;
-		}
-		.img_block a{
-			display: block;
-			text-align: bottom;
-			font-size: 0;
-		}
-		.caption{
-			margin: 0 0 1em 0;
-			padding: 0;
-			overflow: hidden;
-			white-space: nowrap;
-			text-overflow: ellipsis;
-			font-size: 80%;
-			color: #666;
-		}
-		</style>
 	</head>
 	<body>
-		<div id="gallery">
-
-		</div>
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="ja.js">		</script>
+		<link href="https://api.motion.ai/sdk/webchat.css" rel="stylesheet" type="text/css">
+		<script src="https://api.motion.ai/sdk/webchat.js"></script>
+		<script>
+		   motionAI_Init('61719?color=62a8ea&sendBtn=SEND&inputBox=Type%20something...&token=569ee9e4cbd39b2624c1e569960efee0',true,400,470,'https://api.motion.ai/sdk/botbtn.png');
+		   /* You may also invoke motionAI_Open() to manually open the modal. */
+		</script>
 	</body>
 </html>
