@@ -5,17 +5,16 @@
     Template Design By WpFreeware Team.
     Author URI : http://www.wpfreeware.com/
     ====================================================-->
-
     <!-- Basic Page Needs
     ================================================== -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <title>WpF Degree : Home</title>
+     <title>WpF Degree : Scholarship</title>
 
     <!-- Mobile Specific Metas
     ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/icon" href="img/wpf-favicon.png"/>
 
@@ -52,7 +51,6 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
- 
   </head>
   <body>    
 
@@ -64,7 +62,8 @@
     <header id="header">
       <!-- BEGIN MENU -->
       <div class="menu_area">
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">  <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
             <div class="navbar-header">
               <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -75,25 +74,33 @@
               </button>
               <!-- LOGO -->
               <!-- TEXT BASED LOGO -->
-             <a class="navbar-brand" href="index.html">Yuyung<span>裕踴</span></a>              
+              <a class="navbar-brand" href="index.html">Yuyung<span>裕踴</span></a>            
               <!-- IMG BASED LOGO  -->
-               <!-- <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>  -->            
+               <!-- <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>  -->           
                      
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
-<!--                <li class="active"><a href="index.html">Home</a></li>-->
-                <li class="dropdown">
-                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About<span class="caret"></span></a>
+
+                <li class="dropdown active">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About<span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                     <li><a href="about-yuyung.html">About Yuyung</a></li>
                     <li><a href="about_mission.statement.html">Mission Statement</a></li>             
                   </ul>
                 </li>         
-                <li><a href="why-us.html">Why Us</a></li>
-                <li><a href="Products_single.jersey.html">Products</a></li>
+                  
+                <li><a class="active" href="why-us.html">Why Us</a></li>
+                  
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Products<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="Products_single.jersey.html">Single Jersey Cylinder</a></li>
+                    
+                  </ul>
+                </li> 
                 <li><a href="contact.html">Contact</a></li>
-              </ul> 
+              </ul>           
             </div><!--/.nav-collapse -->
           </div>     
         </nav>  
@@ -102,57 +109,63 @@
     </header>
     <!--=========== END HEADER SECTION ================--> 
 
-    <!--=========== BEGIN SLIDER SECTION ================-->
-    <section id="slider">
-      <div class="row">
-        <div class="col-lg-12 col-md-12">
-          <div class="slider_area">
-            <!-- Start super slider -->
-            <div id="slides">
-              <ul class="slides-container">                          
-                <li>
-                  <img src="img/maxresdefault.jpg" alt="img">
-                   <div class="slider_caption">
-                    <h2>Best Knitting Cylinders</h2>
-                    <p>At yuyung, we only offer the best quality cylinders</p>
-                    <a class="slider_btn" href="about-yuyung.html">Know More</a>
-                  </div>
-                  </li>
-                <!-- Start single slider-->
-                <li>
-                  <img src="img/fabric.jpg" alt="img">
-                   <div class="slider_caption slider_right_caption">
-                    <h2>Sleeky Fabrics</h2>
-                    <p>We ensure that our technology will produce the least chance of stuck fabrics, which in turn increases the cylinders’ efficiency.  </p>
-                    <a class="slider_btn" href="why-us.html">Know More</a>
-                  </div>
-                </li>
-                <!-- Start single slider-->
-                <li>
-                  <img src="img/children.jpg" alt="img">
-                   <div class="slider_caption">
-                    <h2>Best Quality Service at Yuyung</h2>
-                    <p>Quality before & after sales service is guartneed. We make sure the highest customer satisfaction.</p>
-                    <a class="slider_btn" href="contact.html">Know More</a>
-                  </div>
-                </li>
-              </ul>
-              <nav class="slides-navigation">
-                <a href="#" class="next"></a>
-                <a href="#" class="prev"></a>
-              </nav>
+    <!--=========== BEGIN COURSE BANNER SECTION ================-->
+    <section id="imgBanner">
+      <h2>About</h2>
+    </section>
+    <!--=========== END COURSE BANNER SECTION ================-->
+    
+    <!--=========== BEGIN COURSE BANNER SECTION ================-->
+    <section id="courseArchive">
+      <div class="container">
+        <div class="row">
+          <!-- start course content -->
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="courseArchive_content">
+              <!-- start blog archive  -->
+
+                <!-- start single blog -->
+                <div class="col-lg-12 col-12 col-sm-12">
+                  <div class="single_blog">
+<!--
+                    <div class="blogimg_container">
+                      <a href="#" class="blog_img">
+                        <img alt="img" src="img/blog.jpg" style="width:200px; height:auto;">
+                      </a>
+                    </div>
+-->
+                    <div class="title_area">
+                        <h2 class="title_two">About Yuyung</h2>
+                        <span></span> 
+                    </div>
+                    <p>During the late 1960s, with textiles becoming an important export in Taiwan, circular knitting machines were increasingly in demand. Thus, the precision knitting components of circular knitting machines became essential to circular knitting machine manufacturers. In 1971, foreseeing the growing demand for knitting components, Ho-Chen Precision Knitting Cylinder Co. was founded.
+Our founders soon realized that knitting cylinders play a vital role, since many small and precise components are situated in the knitting cylinders.</p>
+                    <p>Only with the smooth coordination of all knitting components can the most flawless and beautiful fabrics be made.</p>
+                    <p>In time, the fine quality of Yuyung’s knitting cylinders was noticed by many people worldwide. Since then, Yuyung’s knitting cylinders have been exported to different countries, from urban to rural textile firms, and from Taiwan and Asia to other continents around the world. Wherever there is a fabric textile firm, there is demand for Yuyung’s knitting cylinders.</p> 
+ </p>
+                                     
+                  </div>                 
+                </div>
+                <!-- End single blog -->                
+
+              <!-- end blog archive  -->                       
             </div>
           </div>
+          <!-- End course content -->
+
+
+              <!-- start single sidebar -->
+         
+              <!-- End single sidebar -->
+            </div>
+          </div>
+          <!-- start course archive sidebar -->
         </div>
       </div>
     </section>
-    <!--=========== END SLIDER SECTION ================-->
-
-    <!--=========== BEGIN ABOUT US SECTION ================-->
+    <!--=========== END COURSE BANNER SECTION ================-->
     
-    <!--=========== END STUDENTS TESTIMONIAL SECTION ================-->    
-    
-        <!--=========== BEGIN FOOTER SECTION ================-->
+          <!--=========== BEGIN FOOTER SECTION ================-->
     <footer id="footer">
       <!-- Start footer top area -->
       <div class="footer_top">
@@ -184,7 +197,6 @@
       <!-- End footer bottom area -->
     </footer>
     <!--=========== END FOOTER SECTION ================--> 
-
   
 
     <!-- Javascript Files
@@ -211,11 +223,10 @@
    
     <!-- Custom js-->
     <script src="js/custom.js"></script>
-    <!--=============================================== 
+  <!--=============================================== 
     Template Design By WpFreeware Team.
     Author URI : http://www.wpfreeware.com/
-    ====================================================-->
-
+  ====================================================-->
 
   </body>
 </html>
